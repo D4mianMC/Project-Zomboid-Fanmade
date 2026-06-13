@@ -54,26 +54,3 @@ y compartir el link que `ngrok` genere.
 
 ### Nota
 El proyecto ya está listo como página estática: `projectzomboid.html` con `css/style.css` y los scripts embebidos.
-
-## 4. Preparar el repositorio con Git
-
-Si quieres subirlo a GitHub, estos son los pasos básicos desde el directorio del proyecto:
-
-```powershell
-# instalar git si no lo tienes
-# https://git-scm.com/downloads
-
-git init
-git add .
-git commit -m "Initial project commit"
-```
-
-Luego crea el repositorio en GitHub y enlázalo con:
-
-```powershell
-git remote add origin https://github.com/<tu-usuario>/<tu-repo>.git
-git branch -M main
-git push -u origin main
-```
-
-Después activa GitHub Pages en la configuración del repositorio para servir la página.
